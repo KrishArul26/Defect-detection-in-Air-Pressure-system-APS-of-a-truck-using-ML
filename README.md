@@ -2,6 +2,11 @@
 
 <h2 align="left">Introduction</h2>
 
+<p style= 'text-align: justify;'> The dataset consists of data collected from heavy Scania trucks in everyday usage. The system in focus is the Air Pressure system (APS) which generates  pressurised air that is utilized in various functions in a truck, such as braking and gear changes. The dataset’s positive class consists of component failures for a 
+ specific component of the APS system. The negative class consists of trucks with failures for components not related to the APS. So, I created a model where It can able 
+ to detect whether the APS is going to fail or Not..</p>
+  
+
  <h4 align="left">The dataset consists of data collected from heavy Scania trucks in everyday usage. The system in focus is the Air Pressure system (APS) which generates  pressurised air that is utilized in various functions in a truck, such as braking and gear changes. The dataset’s positive class consists of component failures for a 
  specific component of the APS system. The negative class consists of trucks with failures for components not related to the APS. So, I created a model where It can able 
  to detect whether the APS is going to fail or Not..</h4>
