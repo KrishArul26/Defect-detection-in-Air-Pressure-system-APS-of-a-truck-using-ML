@@ -51,8 +51,37 @@ Total_cost = Cost_1No_Instances + Cost_2No_Instances.
   
 </p> 
 
-
-
+<h2 align="left">Files Descriptions</h2>
+ 
+ <p style= 'text-align: justify;'> 
+  
+              1.	Data Preprocessing Folder: This folder only contains preprocessing file which is needed for remove_columns, separate label feature, replace invalid values with                    Null, finding the null values present in the dataset, encodes all the categorical values in the training set to numeric values, the method finds the missing                        values, method scales the numerical values, dealing with Dimensanility reduction  techniques using  PCA, the method finds out the columns which have a standard                    deviation of zero, The methods handle the Imbalance the dependent variables using SMOTE.
+  
+              2.	EDA: This folder only contains the Jupyter Notebook and the sample data files. 
+  
+              3.	Model_Train Folder: This folder only contains model_training.py and tuner.py files.#
+  
+                               a.	tuner.py: This file contains all necessary coding for initializing the SVM, KNN parameters in order to get the best prediction with good accuracy                                   using GridsearchCV. Finally, It will return the best model with a comparison of F1 values. 
+            
+                               b.	model_training.py: It has all coding for trained the model and saves the model in the working directory. 
+  
+              4.	Models: Only contain the KNN model which we used to train the model.
+  
+              5.	Files_models.py: This file contains coding for the save the trained model and loads the model.
+  
+              6.	predictionFrom_Model.py: This file is only for predicting the unseen data
+  
+              7.	Main.py: For predicting the Unseen data whether the truck’s APS  is going to fail or not
+  
+</p>
+ 
+<h2 align="left">Data Preprocessing</h2>
+ 
+ 
+ 
+<p style= 'text-align: justify;'> The HSV colour space is often used in computer vision tasks because it has better performance than the RGB colour under different lighting conditions. So, firstly, the blue colour area is isolated from the original image to locate the path. RGB image, different levels of the blue tape may be lit with different light, resulting in them appearing as darker blue or light blue. However, in HSV colour space, the Hue component will render the entire blue tape as one colour regardless of 
+its shading. To do this, with the help of the OpenCV's function is converted to the HSV space.</p>
+ 
 
 
 
