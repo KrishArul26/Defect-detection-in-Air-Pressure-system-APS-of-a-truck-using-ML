@@ -55,7 +55,10 @@ Total_cost = Cost_1No_Instances + Cost_2No_Instances.
  
  <p style= 'text-align: justify;'> 
   
-              1.	Data Preprocessing Folder: This folder only contains preprocessing file which is needed for remove_columns, separate label feature, replace invalid values with                    Null, finding the null values present in the dataset, encodes all the categorical values in the training set to numeric values, the method finds the missing                        values, method scales the numerical values, dealing with Dimensanility reduction  techniques using  PCA, the method finds out the columns which have a standard                    deviation of zero, The methods handle the Imbalance the dependent variables using SMOTE.
+              1.	Data Preprocessing Folder: This folder only contains preprocessing file which is needed for remove_columns, separate label feature, replace invalid values with                   
+                 Null, finding the null values present in the dataset, encodes all the categorical values in the training set to numeric values, the method finds the missing                       
+                 values, method scales the numerical values, dealing with Dimensanility reduction  techniques using  PCA, the method finds out the columns which have a standard                    
+                 deviation of zero, The methods handle the Imbalance the dependent variables using SMOTE.
   
               2.	EDA: This folder only contains the Jupyter Notebook and the sample data files. 
   
