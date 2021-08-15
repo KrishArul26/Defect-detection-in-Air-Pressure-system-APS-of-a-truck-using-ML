@@ -129,17 +129,18 @@ models and select the model with the best score.</p>
 
                                   2.	Data Preprocessing 
  
-                                        a) Replace the invalid values with numpy “nan” so we can use imputer on such values. 
- 
- 
-                                        b) Check for null values in the columns. If present, impute the null values using the mean.
+                                                        a) Replace the invalid values with numpy “nan” so we can use imputer on such values. 
+
+
+                                                        b) Check for null values in the columns. If present, impute the null values using the mean.
  
 
                                   3.	Prediction - The respective model is loaded and is used to predict the data. 
  
-                                  4.	Once the prediction is made, the predictions along with the original names before label encoder are saved in a CSV file at a given location 
+                                  4.	Once the prediction is made, the predictions along with the original names before label encoder are saved in 
  
-                                      and the location is returned to the working directory.</p>
+                                     a CSV file at a given location  and the location is returned to the working directory.
+ </p>
  
  
  
