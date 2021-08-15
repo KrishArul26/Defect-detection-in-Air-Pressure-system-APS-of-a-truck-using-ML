@@ -92,26 +92,26 @@ Total_cost = Cost_1No_Instances + Cost_2No_Instances.
  
  
 <p style= 'text-align: justify;'> 
-          
-                                  1.	Remove Unnecessary Columns
- 
-                                  2.	Separate Label Feature
- 
-                                  3.	Replace Invalid Values With Null
- 
-                                  4.	Finding The Null Values Present In The Dataset
- 
-                                  5.	Encodes All The Categorical Values In The Training Set To Numeric Values
- 
-                                  6.	Missing Values Replace With Mean
- 
-                                  7.	Scales The Numerical Values Using Standardscaler
- 
-                                  8.	Dimensionality Reduction Using  PCA
- 
-                                  9.	Remove Columns Which A Standard Deviation Of Zero
- 
-                                  10.	Balance The Dependent Variables Using SMOTE 
+
+               1.	Remove Unnecessary Columns
+
+               2.	Separate Label Feature
+
+               3.	Replace Invalid Values With Null
+
+               4.	Finding The Null Values Present In The Dataset
+
+               5.	Encodes All The Categorical Values In The Training Set To Numeric Values
+
+               6.	Missing Values Replace With Mean
+
+               7.	Scales The Numerical Values Using Standardscaler
+
+               8.	Dimensionality Reduction Using  PCA
+
+               9.	Remove Columns Which A Standard Deviation Of Zero
+
+               10.	Balance The Dependent Variables Using SMOTE 
 </p>
 
  
@@ -125,21 +125,21 @@ models and select the model with the best score.</p>
  
 <p style= 'text-align: justify;'> 
  
-                                  1.	Data Export from Db - The data in the stored database is exported as a CSV file to be used for prediction. 
+                1.	Data Export from Db - The data in the stored database is exported as a CSV file to be used for prediction. 
 
-                                  2.	Data Preprocessing 
- 
-                                                        a) Replace the invalid values with numpy “nan” so we can use imputer on such values. 
+                2.	Data Preprocessing 
+
+                                      a) Replace the invalid values with numpy “nan” so we can use imputer on such values. 
 
 
-                                                        b) Check for null values in the columns. If present, impute the null values using the mean.
- 
+                                      b) Check for null values in the columns. If present, impute the null values using the mean.
 
-                                  3.	Prediction - The respective model is loaded and is used to predict the data. 
- 
-                                  4.	Once the prediction is made, the predictions along with the original names before label encoder are saved in 
- 
-                                     a CSV file at a given location  and the location is returned to the working directory.
+
+                3.	Prediction - The respective model is loaded and is used to predict the data. 
+
+                4.	Once the prediction is made, the predictions along with the original names before label encoder are saved in 
+
+                   a CSV file at a given location  and the location is returned to the working directory.
  </p>
  
  
