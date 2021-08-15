@@ -3,9 +3,9 @@
 <h2 align="left">Introduction</h2>
 
 <p style= 'text-align: justify;'> The dataset consists of data collected from heavy Scania trucks in everyday usage. The system in focus is the Air Pressure system (APS) which generates  pressurised air that is utilized in various functions in a truck, such as braking and gear changes. The dataset’s positive class consists of component failures for a 
- specific component of the APS system. The negative class consists of trucks with failures for components not related to the APS. So, I created a model where It can able 
- to detect whether the APS is going to fail or Not. Further, The attribute names of the data have been anonymized for proprietary reasons.
- Challenge metric:
+specific component of the APS system. The negative class consists of trucks with failures for components not related to the APS. So, I created a model where It can able 
+to detect whether the APS is going to fail or Not. Further, The attribute names of the data have been anonymized for proprietary reasons.
+Challenge metric:
  
                  * Cost-metric of miss-classification
  
@@ -91,8 +91,29 @@ Total_cost = Cost_1No_Instances + Cost_2No_Instances.
  
  
  
-<p style= 'text-align: justify;'> The HSV colour space is often used in computer vision tasks because it has better performance than the RGB colour under different lighting conditions. So, firstly, the blue colour area is isolated from the original image to locate the path. RGB image, different levels of the blue tape may be lit with different light, resulting in them appearing as darker blue or light blue. However, in HSV colour space, the Hue component will render the entire blue tape as one colour regardless of 
-its shading. To do this, with the help of the OpenCV's function is converted to the HSV space.</p>
+<p style= 'text-align: justify;'> 1.	Remove Unnecessary Columns
+ 
+                                  2.	Separate Label Feature
+ 
+                                  3.	Replace Invalid Values With Null
+ 
+                                  4.	Finding The Null Values Present In The Dataset
+ 
+                                  5.	Encodes All The Categorical Values In The Training Set To Numeric Values
+ 
+                                  6.	Missing Values Replace With Mean
+ 
+                                  7.	Scales The Numerical Values Using Standardscaler
+ 
+                                  8.	Dimensionality Reduction Using  PCA
+ 
+                                  9.	Remove Columns Which A Standard Deviation Of Zero
+ 
+                                  10.	Balance The Dependent Variables Using SMOTE 
+</p>
+ 
+ 
+ 
  
 
 
