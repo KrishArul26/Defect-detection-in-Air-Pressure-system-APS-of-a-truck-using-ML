@@ -91,7 +91,9 @@ Total_cost = Cost_1No_Instances + Cost_2No_Instances.
  
  
  
-<p style= 'text-align: justify;'> 1.	Remove Unnecessary Columns
+<p style= 'text-align: justify;'> 
+          
+                                  1.	Remove Unnecessary Columns
  
                                   2.	Separate Label Feature
  
