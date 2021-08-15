@@ -113,10 +113,37 @@ Total_cost = Cost_1No_Instances + Cost_2No_Instances.
  
                                   10.	Balance The Dependent Variables Using SMOTE 
 </p>
+
+ 
+<h2 align="left"> Model Selection </h2>
+ 
+<p style= 'text-align: justify;'>  We are using two algorithms, "SVM" and "KNN". The data is trained on both the 
+algorithms with the hyper parameters for each algorithoms which is derived from GridSearch. We calculate the AUC scores for both 
+models and select the model with the best score.</p>
+ 
+<h2 align="left">  Prediction </h2>
+ 
+<p style= 'text-align: justify;'> 
+ 
+                                  1.	Data Export from Db - The data in the stored database is exported as a CSV file to be used for prediction. 
+
+                                  2.	Data Preprocessing 
+ 
+                                        a) Replace the invalid values with numpy “nan” so we can use imputer on such values. 
+ 
+ 
+                                        b) Check for null values in the columns. If present, impute the null values using the mean.
+ 
+
+                                  3.	Prediction - The respective model is loaded and is used to predict the data. 
+ 
+                                  4.	Once the prediction is made, the predictions along with the original names before label encoder are saved in a CSV file at a given location 
+ 
+                                      and the location is returned to the working directory.</p>
  
  
  
- 
+
 
 
 
