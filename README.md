@@ -64,7 +64,9 @@ Total_cost = Cost_1No_Instances + Cost_2No_Instances.
   
               3.	Model_Train Folder: This folder only contains model_training.py and tuner.py files.#
   
-                               a.	tuner.py: This file contains all necessary coding for initializing the SVM, KNN parameters in order to get the best prediction with good accuracy                                   using GridsearchCV. Finally, It will return the best model with a comparison of F1 values. 
+                               a.	tuner.py: This file contains all necessary coding for initializing the SVM, KNN parameters in order to get the best prediction with
+                                  
+                                  good accuracy using GridsearchCV. Finally, It will return the best model with a comparison of F1 values. 
             
                                b.	model_training.py: It has all coding for trained the model and saves the model in the working directory. 
   
