@@ -50,6 +50,9 @@ Total_cost = Cost_1No_Instances + Cost_2No_Instances.
   <img width="300" src="https://user-images.githubusercontent.com/74568334/129486713-9612c049-b39a-4264-812c-df2cba00e2db.jpeg">
   
 </p> 
+ 
+ 
+<h2 align="center"> <span style="color:green">Missing Values, PCA, SMOTE, KNN, SVM, Hyperparametrs Tuning, Pickle, F1-Score and AUC - Values.</span></h2>
 
 <h2 align="left">Files Descriptions</h2>
  
