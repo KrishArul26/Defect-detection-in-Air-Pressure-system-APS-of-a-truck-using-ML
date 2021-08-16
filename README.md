@@ -141,8 +141,31 @@ models and select the model with the best score.</p>
 
                    a CSV file at a given location  and the location is returned to the working directory.
  </p>
+
+ 
+<h2 align="left"> Result of KNN Mpdel</h2>
+ 
+<h3 align="left">Confusion Matrix </h3>
+ 
+ <p align="center">
+  <img width="600" src="https://user-images.githubusercontent.com/74568334/129513771-786624f8-40fb-4b1c-ae97-db97856e4255.png">
+  
+</p> 
  
  
+ <h3 align="left">Precision - Recall Curve For KNN  </h3>
+ 
+ <p align="center">
+  <img width="600" src="https://user-images.githubusercontent.com/74568334/129513861-848fe6b9-83e2-41d0-9275-9b7ecd5d9939.png">
+  
+</p> 
+ 
+<h3 align="left"> ROC Curve For KNN  </h3>
+ 
+<p align="center">
+  <img width="600" src="https://user-images.githubusercontent.com/74568334/129513922-b4005f16-d98d-4d00-b258-bdcc6fcd70fd.png">
+  
+</p> 
  
 
 
