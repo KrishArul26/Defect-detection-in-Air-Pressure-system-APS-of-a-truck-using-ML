@@ -148,7 +148,7 @@ models and select the model with the best score.</p>
  
 <h2 align="left"> Result of KNN Model</h2>
  
-<h3 align="left">Confusion Matrix </h3>
+<h3 align="left">Confusion Matrix of KNN</h3>
  
  <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/74568334/129590193-0e932231-c494-4091-a3d8-af87454ee06e.png">
@@ -170,8 +170,30 @@ models and select the model with the best score.</p>
   
 </p> 
  
-
-
+<h2 align="left"> Result of SVM Model</h2>
+ 
+<h3 align="left">Confusion Matrix of SVM </h3>
+ 
+ <p align="center">
+  <img width="600" src="https://user-images.githubusercontent.com/74568334/129590606-93d049ec-c60c-4a97-b460-edc98ce78208.png">
+  
+</p> 
+ 
+ 
+ <h3 align="left">Precision - Recall Curve For SVM </h3>
+ 
+ <p align="center">
+  <img width="600" src="https://user-images.githubusercontent.com/74568334/129513861-848fe6b9-83e2-41d0-9275-9b7ecd5d9939.png">
+  
+</p> 
+ 
+<h3 align="left"> ROC Curve For SVM </h3>
+ 
+<p align="center">
+  <img width="600" src="https://user-images.githubusercontent.com/74568334/129513922-b4005f16-d98d-4d00-b258-bdcc6fcd70fd.png">
+  
+</p> 
+ 
 
 
 
