@@ -143,7 +143,7 @@ models and select the model with the best score.</p>
  </p>
 
  
-<h2 align="left"> Result of KNN Mpdel</h2>
+<h2 align="left"> Result of KNN Model</h2>
  
 <h3 align="left">Confusion Matrix </h3>
  
