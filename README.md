@@ -183,18 +183,41 @@ models and select the model with the best score.</p>
  <h3 align="left">Precision - Recall Curve For SVM </h3>
  
  <p align="center">
-  <img width="600" src="https://user-images.githubusercontent.com/74568334/129513861-848fe6b9-83e2-41d0-9275-9b7ecd5d9939.png">
+  <img width="600" src="https://user-images.githubusercontent.com/74568334/129598048-d384eb5f-6bfe-40cb-8d3d-f799c8f07594.png">
   
 </p> 
  
 <h3 align="left"> ROC Curve For SVM </h3>
  
 <p align="center">
-  <img width="600" src="https://user-images.githubusercontent.com/74568334/129513922-b4005f16-d98d-4d00-b258-bdcc6fcd70fd.png">
+  <img width="600" src="https://user-images.githubusercontent.com/74568334/129598040-0c4ac3d1-53e9-4738-88db-4a09b603b3f4.png">
+  
+</p> 
+
+ 
+<h2 align="left"> Result of RandomForest Model</h2>
+ 
+<h3 align="left">Confusion Matrix of RandomForest </h3>
+ 
+ <p align="center">
+  <img width="600" src="https://user-images.githubusercontent.com/74568334/129601670-d4d486bc-1404-4b72-bcd3-d0cca1458e5e.png">
   
 </p> 
  
-
+ 
+ <h3 align="left">Precision - Recall Curve For RandomForest </h3>
+ 
+ <p align="center">
+  <img width="600" src="https://user-images.githubusercontent.com/74568334/129601672-cca1de69-d878-44d4-80ca-add2e092a3d0.png">
+  
+</p> 
+ 
+<h3 align="left"> ROC Curve For RandomForest </h3>
+ 
+<p align="center">
+  <img width="600" src="https://user-images.githubusercontent.com/74568334/129601666-369a1ebe-9ae9-4272-a5f0-6de597a6d817.png">
+  
+</p> 
 
 
 
