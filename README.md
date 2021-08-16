@@ -11,7 +11,7 @@ Challenge metric:
  
                  * Cost-metric of miss-classification
  
-                 * Predicted class | True class |#
+                 * Predicted class | True class |
  
                  | pos | neg |
  
@@ -231,8 +231,11 @@ SVM             | 35  |  38  |  17,780  |
 Random Forest   | 23  |  45  |  11,950  |
 ----------------|-----|------|----------|
 
+ 
 
+<h2 align="left"> Conclusion</h2>
 
+<h3 align="left"> Among KNN, SVM  and Random Forest, The Random Forest model provide the least cost for prediction. It means It has a higher F1 score and AUC values. Since the total cost is equal to 500 x FN and 100 x FP, to have a minimal cost it is required to have a lower FN. This can be achieved by having a proper precision-recall tradeoff</h3>
 
 
 
