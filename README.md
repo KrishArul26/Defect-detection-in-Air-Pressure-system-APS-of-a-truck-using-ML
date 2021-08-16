@@ -7,6 +7,13 @@ specific component of the APS system. The negative class consists of trucks with
 to detect whether the APS is going to fail or Not. Further, The attribute names of the data have been anonymized for proprietary reasons.
 Challenge metric:
  
+<p align="left">
+  <img width="500" src="https://user-images.githubusercontent.com/74568334/129486706-6ef0fa0b-721c-427f-81f5-a57494c30dcc.jpeg">
+  <img width="300" src="https://user-images.githubusercontent.com/74568334/129486713-9612c049-b39a-4264-812c-df2cba00e2db.jpeg">
+  
+</p> 
+ 
+ 
 <h1 align="center"> <span style="color:green">Missing Values, PCA, SMOTE, KNN, SVM, Random Forest, Hyperparametrs Tuning, Pickle, F1-Score and AUC - Values.</span></h1>
  
                  * Cost-metric of miss-classification
@@ -47,12 +54,6 @@ Total_cost = Cost_1No_Instances + Cost_2No_Instances.
                                                                     
             •	bin 4 collect values for temperature T > 20</p>
   
-<p align="left">
-  <img width="500" src="https://user-images.githubusercontent.com/74568334/129486706-6ef0fa0b-721c-427f-81f5-a57494c30dcc.jpeg">
-  <img width="300" src="https://user-images.githubusercontent.com/74568334/129486713-9612c049-b39a-4264-812c-df2cba00e2db.jpeg">
-  
-</p> 
- 
 
 <h2 align="left">Files Descriptions</h2>
  
