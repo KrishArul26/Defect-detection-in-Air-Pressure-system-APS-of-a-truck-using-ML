@@ -4,7 +4,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 
 
-def get_best_params_for_svm(self, train_x, train_y):
+def get_best_params_for_svm(train_x, train_y):
     """
     Method Name: get_best_params_for_naive_bayes
     Description: get the parameters for the SVM Algorithm which give the best accuracy.
@@ -26,7 +26,7 @@ def get_best_params_for_svm(self, train_x, train_y):
         grid.fit(train_x, train_y)
 
         # extracting the best parameters
-        kernel = self.grid.best_params_['kernel']
+        kernel = grid.best_params_['kernel']
         C = grid.best_params_['C']
         random_state = self.grid.best_params_['random_state']
 
