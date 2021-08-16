@@ -90,7 +90,7 @@ Total_cost = Cost_1No_Instances + Cost_2No_Instances.
   
 </p>
  
-<h2 align="left">Data Preprocessing</h2>
+<h2 align="left">Data Preprocessing [Google Colab For EDA](https://colab.research.google.com/drive/1IDJM2J7EL9pgolTnyx8TRqYYu8iOKzTN#scrollTo=IkBvJ0wyVHaA)</h2>
  
  
  
