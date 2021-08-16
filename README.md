@@ -219,6 +219,17 @@ models and select the model with the best score.</p>
   
 </p> 
 
+<h3 align="left"> Cost for Prediction with False Negative(FN) and Flase Possitive(FP)</h3>
+
+-----------------------------------------
+Model           |  FN | FP   |Total Cost|
+----------------| ----|------|----------|
+KNN             | 77  |  20  | 38, 700  |
+-----------------------------------------
+SVM             | 35  |  38  |  17,780  |
+-----------------------------------------
+Random Forest   | 23  |  45  |  11,950  |
+-----------------------------------------
 
 
 
