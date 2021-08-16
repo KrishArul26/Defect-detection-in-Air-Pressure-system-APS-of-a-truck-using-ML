@@ -7,7 +7,7 @@ specific component of the APS system. The negative class consists of trucks with
 to detect whether the APS is going to fail or Not. Further, The attribute names of the data have been anonymized for proprietary reasons.
 Challenge metric:
  
-<h1 align="center"> <span style="color:green">Missing Values, PCA, SMOTE, KNN, SVM, Hyperparametrs Tuning, Pickle, F1-Score and AUC - Values.</span></h1>
+<h1 align="center"> <span style="color:green">Missing Values, PCA, SMOTE, KNN, SVM, Random Forest, Hyperparametrs Tuning, Pickle, F1-Score and AUC - Values.</span></h1>
  
                  * Cost-metric of miss-classification
  
