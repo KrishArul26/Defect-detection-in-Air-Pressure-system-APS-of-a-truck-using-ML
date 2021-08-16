@@ -151,7 +151,7 @@ models and select the model with the best score.</p>
 <h3 align="left">Confusion Matrix </h3>
  
  <p align="center">
-  <img width="600" src="https://user-images.githubusercontent.com/74568334/129513771-786624f8-40fb-4b1c-ae97-db97856e4255.png">
+  <img width="600" src="https://user-images.githubusercontent.com/74568334/129590193-0e932231-c494-4091-a3d8-af87454ee06e.png">
   
 </p> 
  
