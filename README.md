@@ -1,4 +1,4 @@
-<h2 align="center"> Defect-detection-in-Air-Pressure-system-APS-of-a-truck-using-ML</h2>
+<h2 align="center"> Defect-detection-in-Air-Pressure-system-APS-of-a-truck-using-ML with Minimum Cost</h2>
 
 <h2 align="left">Introduction</h2>
 
