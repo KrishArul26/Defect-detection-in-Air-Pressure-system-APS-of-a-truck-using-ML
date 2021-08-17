@@ -48,7 +48,7 @@ def separate_label_feature(data, label_column_name):
 
 def dropUnnecessaryColumns(data, columnNameList):
     """
-                    Method Name: is_null_present
+                    Method Name: dropUnnecessaryColumns
                     Description: This method drops the unwanted columns as discussed in EDA section.
 
                             """
@@ -58,7 +58,7 @@ def dropUnnecessaryColumns(data, columnNameList):
 
 def replaceInvalidValuesWithNull(data):
     """
-   Method Name: is_null_present
+   Method Name: replaceInvalidValuesWithNull
    Description: This method replaces invalid values i.e. '?' with null, as discussed in EDA.
 
     """
