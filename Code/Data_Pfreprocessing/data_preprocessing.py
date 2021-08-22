@@ -144,7 +144,7 @@ def handleMissingValues(data):
     return data
 
 
-def scale_numerical_columns(self, data):
+def scale_numerical_columns(data):
     """
     Method Name: scale_numerical_columns
     Description: This method scales the numerical values using the Standard scaler.
@@ -155,7 +155,7 @@ def scale_numerical_columns(self, data):
     try:
 
         scaler = StandardScaler()
-        scaled_data = scaler.fit_transform(self.data)
+        scaled_data = scaler.fit_transform(data)
         scaled_num_df = pd.DataFrame(data=scaled_data, columns=data.columns, index=data.index)
 
         return scaled_num_df
