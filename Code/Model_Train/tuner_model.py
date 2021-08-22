@@ -28,7 +28,7 @@ def get_best_params_for_svm(train_x, train_y):
         # extracting the best parameters
         kernel = grid.best_params_['kernel']
         C = grid.best_params_['C']
-        random_state = self.grid.best_params_['random_state']
+        random_state = grid.best_params_['random_state']
 
         # creating a new model with the best parameters
         sv_classifier = SVC(kernel=kernel, C=C, random_state=random_state)
