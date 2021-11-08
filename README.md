@@ -16,27 +16,27 @@ Challenge metric:
  
 <h4 align="center"> <span style="color:green">Missing Values, PCA, SMOTE, KNN, SVM, Random Forest, Hyperparametrs Tuning, Pickle, F1-Score and AUC - Values.</span></h4>
  
-                 * Cost-metric of miss-classification
  
-                 * Predicted class | True class |
- 
-                 | pos | neg |
- 
- 
-                 pos | - | Cost_1 |
- 
- 
-                 neg | Cost_2 | - |
+<h3 align="left"> <span style="color:green">Cost-metric of miss-classification</span></h4>
+                             
+                 
+                  | Predicted class    |True class|
+                  |-------------------|----------|
+                  |Positive           |Negative  |
+           |------|-------------------|----------|
+           | Pos  |    0              | Cost_1   |
+           |------|-------------------|----------|
+           |  Neg |    Cost_2         |  0       |
+           |------|-------------------|----------|
 
  
 <p style= 'text-align: justify;'> 
  
  Cost_1 = 10 and cost_2 = 500
  
-The **total cost of a prediction model** the sum of 'Cost_1' multiplied by the number of Instances with type 1 failure and 'Cost_2' with the number of instances with type 2 failure, resulting in a 'Total_cost'.
- 
- 
-In this case Cost_1 refers to the cost that an unnessecary check needs to be done by an mechanic at an workshop, while Cost_2 refer to the cost of missing a faulty truck, which may cause a breakdown.
+1. The **total cost of a prediction model** the sum of 'Cost_1' multiplied by the number of Instances with type 1 failure and 'Cost_2' with the number of instances with type 2      failure, resulting in a 'Total_cost'.
+  
+2. In this case Cost_1 refers to the cost that an unnessecary check needs to be done by an mechanic at an workshop, while Cost_2 refer to the cost of missing a faulty truck,        which may cause a breakdown.
  
 Total_cost = Cost_1No_Instances + Cost_2No_Instances.
  
@@ -124,10 +124,10 @@ models and select the model with the best score.</p>
 
  2.	**Data Preprocessing** 
 
-                       a) Replace the invalid values with numpy ***nan*** so we can use imputer on such values. 
+       a) Replace the invalid values with numpy "nan" so we can use imputer on such values. 
 
 
-                       b) Check for null values in the columns. If present, impute the null values using the mean.
+       b) Check for null values in the columns. If present, impute the null values using the mean.
 
 
  3.	**Prediction** - The respective model is loaded and is used to predict the data. 
@@ -214,17 +214,15 @@ models and select the model with the best score.</p>
 
 <h4 align="left"> Cost for Prediction with False Negative(FN) and Flase Possitive(FP)</h4>
  
-| Evaluation Parameter   | Value    |
-| -------------          | ---------|
-|       MAE              | 43.505   |
-|       MSE              | 3335.414 |
-|       RMSE             | 57.753   |
+
 
 |----------------|-----|------|----------|
 |Model           |  FN | FP   |Total Cost|
 |----------------|-----|------|----------|
 |KNN             | 77  |  20  | 38, 700  |
+|----------------|-----|------|----------|
 |SVM             | 35  |  38  |  17,780  |
+|----------------|-----|------|----------|
 |Random Forest   | 23  |  45  |  11,950  |
 |----------------|-----|------|----------|
 
@@ -232,7 +230,7 @@ models and select the model with the best score.</p>
 
 <h3 align="left"> Conclusion</h3>
  
- <p style= 'text-align: justify;'> Among KNN, SVM  and Random Forest, The ***Random Forest model*** provide the least cost for prediction. It means It has a higher F1 score and AUC values. Since the total cost is equal to 500 x FN and 100 x FP, to have a minimal cost it is required to have a lower FN. This can be achieved by having a proper precision-recall tradeoff </p> 
+ <p style= 'text-align: justify;'> Among KNN, SVM  and Random Forest, The **Random Forest model** provide the least cost for prediction. It means It has a higher F1 score and AUC values. Since the total cost is equal to 500 x FN and 100 x FP, to have a minimal cost it is required to have a lower FN. This can be achieved by having a proper precision-recall tradeoff </p> 
 
 
 
