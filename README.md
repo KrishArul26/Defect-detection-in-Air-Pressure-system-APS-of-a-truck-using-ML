@@ -34,17 +34,17 @@ Challenge metric:
  
  Cost_1 = 10 and cost_2 = 500
  
-1. The **total cost of a prediction model** the sum of 'Cost_1' multiplied by the number of Instances with type 1 failure and 'Cost_2' with the number of instances with type 2      failure, resulting in a 'Total_cost'.
+* The **total cost of a prediction model** the sum of 'Cost_1' multiplied by the number of Instances with type 1 failure and 'Cost_2' with the number of instances with type 2      failure, resulting in a 'Total_cost'.
   
-2. In this case Cost_1 refers to the cost that an unnessecary check needs to be done by an mechanic at an workshop, while Cost_2 refer to the cost of missing a faulty truck,        which may cause a breakdown.
+* In this case Cost_1 refers to the cost that an unnessecary check needs to be done by an mechanic at an workshop, while Cost_2 refer to the cost of missing a faulty truck,        which may cause a breakdown.
  
 Total_cost = Cost_1No_Instances + Cost_2No_Instances.
  
-•	The training set contains 60000 examples in total in which 59000 belong to the negative class and 1000 positive class. The test set contains 16000 examples.
+* The training set contains 60000 examples in total in which 59000 belong to the negative class and 1000 positive class. The test set contains 16000 examples.
  
-•	Number of Attributes: 171
+*	Number of Attributes: 171
  
-•	Attribute Information: The attribute names of the data have been anonymized for proprietary reasons. It consists of both single numerical counters and histograms consisting of bins with different conditions. Typically the histograms have open-ended conditions at each end. For example if we measuring the ambient temperature 'T' then the histogram could be defined with 4 bins where:
+*	Attribute Information: The attribute names of the data have been anonymized for proprietary reasons. It consists of both single numerical counters and histograms consisting of bins with different conditions. Typically the histograms have open-ended conditions at each end. For example if we measuring the ambient temperature 'T' then the histogram could be defined with 4 bins where:
  
             •	bin 1 collect values for temperature T < -20
                                                           
@@ -216,7 +216,7 @@ models and select the model with the best score.</p>
  
 
 
-|----------------|-----|------|----------|
+
 |Model           |  FN | FP   |Total Cost|
 |----------------|-----|------|----------|
 |KNN             | 77  |  20  | 38, 700  |
