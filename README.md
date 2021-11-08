@@ -14,7 +14,7 @@ Challenge metric:
 </p> 
  
  
-<h1 align="center"> <span style="color:green">Missing Values, PCA, SMOTE, KNN, SVM, Random Forest, Hyperparametrs Tuning, Pickle, F1-Score and AUC - Values.</span></h1>
+<h4 align="center"> <span style="color:green">Missing Values, PCA, SMOTE, KNN, SVM, Random Forest, Hyperparametrs Tuning, Pickle, F1-Score and AUC - Values.</span></h4>
  
                  * Cost-metric of miss-classification
  
@@ -76,11 +76,11 @@ Total_cost = Cost_1No_Instances + Cost_2No_Instances.
 
  3.	**Model_Train Folder**: This folder only contains model_training.py and tuner.py files.
 
-                  a.	***tuner.py***: This file contains all necessary coding for initializing the SVM, KNN parameters in order to 
+a.	***tuner.py***: This file contains all necessary coding for initializing the SVM, KNN parameters in order to 
 
-                      get the best prediction with good accuracy using GridsearchCV. Finally, It will return the best model. 
+   get the best prediction with good accuracy using GridsearchCV. Finally, It will return the best model. 
 
-                  b.	***model_training.py***: It has all coding for trained the model and saves the model in the working directory. 
+b.	***model_training.py***: It has all coding for trained the model and saves the model in the working directory. 
 
  4.	**Models**: Only contain the KNN model which we used to train the model.
 
