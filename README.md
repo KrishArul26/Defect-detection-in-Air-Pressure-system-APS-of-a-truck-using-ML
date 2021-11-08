@@ -120,25 +120,26 @@ models and select the model with the best score.</p>
  
 <p style= 'text-align: justify;'> 
  
-                1.	Data Export from Db - The data in the stored database is exported as a CSV file to be used for prediction. 
+ 1.	**Data Export from Db** - The data in the stored database is exported as a CSV file to be used for prediction. 
 
-                2.	Data Preprocessing 
+ 2.	**Data Preprocessing** 
 
-                                      a) Replace the invalid values with numpy “nan” so we can use imputer on such values. 
-
-
-                                      b) Check for null values in the columns. If present, impute the null values using the mean.
+                       a) Replace the invalid values with numpy ***nan*** so we can use imputer on such values. 
 
 
-                3.	Prediction - The respective model is loaded and is used to predict the data. 
+                       b) Check for null values in the columns. If present, impute the null values using the mean.
 
-                4.	Once the prediction is made, the predictions along with the original names before label encoder are saved in 
 
-                   a CSV file at a given location  and the location is returned to the working directory.
+ 3.	**Prediction** - The respective model is loaded and is used to predict the data. 
+
+ 4.	Once the **prediction** is made, the predictions along with the original names before label encoder are saved in 
+
+    a CSV file at a given location  and the location is returned to the working directory.
+ 
  </p>
 
  
-<h3 align="left"> Result of KNN Model</h3>
+<h3 align="center"> Result of KNN Model</h3>
  
 <h4 align="left">Confusion Matrix of KNN</h4>
  
@@ -162,7 +163,7 @@ models and select the model with the best score.</p>
   
 </p> 
  
-<h4 align="left"> Result of SVM Model</h4>
+<h4 align="center"> Result of SVM Model</h4>
  
 <h4 align="left">Confusion Matrix of SVM </h4>
  
@@ -187,7 +188,7 @@ models and select the model with the best score.</p>
 </p> 
 
  
-<h3 align="left"> Result of RandomForest Model</h3>
+<h3 align="center"> Result of RandomForest Model</h3>
  
 <h4 align="left">Confusion Matrix of RandomForest </h4>
  
@@ -215,11 +216,11 @@ models and select the model with the best score.</p>
 
 -----------------------------------------
 Model           |  FN | FP   |Total Cost|
-----------------| ----|------|----------|
+----------------------------------------|
 KNN             | 77  |  20  | 38, 700  |
-----------------|-----|------|----------|
+----------------------------------------|
 SVM             | 35  |  38  |  17,780  |
-----------------|-----|------|----------|
+----------------------------------------|
 Random Forest   | 23  |  45  |  11,950  |
 ----------------|-----|------|----------|
 
