@@ -20,7 +20,7 @@ Challenge metric:
 <h3 align="left"> <span style="color:green">Cost-metric of miss-classification</span></h4>
                              
                  
-                  | Predicted class    |True class|
+                  | Predicted class   |True class|
                   |-------------------|----------|
                   |Positive           |Negative  |
            |------|-------------------|----------|
