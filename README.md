@@ -66,11 +66,11 @@ Total_cost = Cost_1No_Instances + Cost_2No_Instances.
 
  3.	**Model_Train Folder**: This folder only contains model_training.py and tuner.py files.
 
-   a.	***tuner.py***: This file contains all necessary coding for initializing the SVM, KNN parameters in order to 
+ a.	***tuner.py***: This file contains all necessary coding for initializing the SVM, KNN parameters in order to 
 
-      get the best prediction with good accuracy using GridsearchCV. Finally, It will return the best model. 
+ get the best prediction with good accuracy using GridsearchCV. Finally, It will return the best model. 
 
-   b.	***model_training.py***: It has all coding for trained the model and saves the model in the working directory. 
+ b.	***model_training.py***: It has all coding for trained the model and saves the model in the working directory. 
 
  4.	**Models**: Only contain the KNN model which we used to train the model.
 
@@ -82,7 +82,7 @@ Total_cost = Cost_1No_Instances + Cost_2No_Instances.
   
 </p>
  
-<h2 align="left">Data Preprocessing</h2>
+<h3 align="left">Data Preprocessing</h3>
  
 Data Preprocessing of the raw data [Google Colab For EDA Vist, Here](https://colab.research.google.com/drive/1IDJM2J7EL9pgolTnyx8TRqYYu8iOKzTN#scrollTo=IkBvJ0wyVHaA)  
  
@@ -110,13 +110,13 @@ Data Preprocessing of the raw data [Google Colab For EDA Vist, Here](https://col
 </p>
 
  
-<h2 align="left"> Model Selection </h2>
+<h3 align="left"> Model Selection </h3>
  
 <p style= 'text-align: justify;'>  We are using two algorithms, "SVM" and "KNN". The data is trained on both the 
 algorithms with the hyper parameters for each algorithoms which is derived from GridSearch. We calculate the AUC scores for both 
 models and select the model with the best score.</p>
  
-<h2 align="left">  Prediction </h2>
+<h3 align="left">  Prediction </h3>
  
 <p style= 'text-align: justify;'> 
  
@@ -138,9 +138,9 @@ models and select the model with the best score.</p>
  </p>
 
  
-<h2 align="left"> Result of KNN Model</h2>
+<h3 align="left"> Result of KNN Model</h3>
  
-<h3 align="left">Confusion Matrix of KNN</h3>
+<h4 align="left">Confusion Matrix of KNN</h4>
  
  <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/74568334/129590193-0e932231-c494-4091-a3d8-af87454ee06e.png">
@@ -148,23 +148,23 @@ models and select the model with the best score.</p>
 </p> 
  
  
- <h3 align="left">Precision - Recall Curve For KNN  </h3>
+<h4 align="left">Precision - Recall Curve For KNN  </h4>
  
  <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/74568334/129513861-848fe6b9-83e2-41d0-9275-9b7ecd5d9939.png">
   
 </p> 
  
-<h3 align="left"> ROC Curve For KNN  </h3>
+<h4 align="left"> ROC Curve For KNN  </h4>
  
 <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/74568334/129513922-b4005f16-d98d-4d00-b258-bdcc6fcd70fd.png">
   
 </p> 
  
-<h2 align="left"> Result of SVM Model</h2>
+<h4 align="left"> Result of SVM Model</h4>
  
-<h3 align="left">Confusion Matrix of SVM </h3>
+<h4 align="left">Confusion Matrix of SVM </h4>
  
  <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/74568334/129590606-93d049ec-c60c-4a97-b460-edc98ce78208.png">
@@ -172,14 +172,14 @@ models and select the model with the best score.</p>
 </p> 
  
  
- <h3 align="left">Precision - Recall Curve For SVM </h3>
+ <h4 align="left">Precision - Recall Curve For SVM </h4>
  
  <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/74568334/129598048-d384eb5f-6bfe-40cb-8d3d-f799c8f07594.png">
   
 </p> 
  
-<h3 align="left"> ROC Curve For SVM </h3>
+<h4 align="left"> ROC Curve For SVM </h4>
  
 <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/74568334/129598040-0c4ac3d1-53e9-4738-88db-4a09b603b3f4.png">
@@ -187,9 +187,9 @@ models and select the model with the best score.</p>
 </p> 
 
  
-<h2 align="left"> Result of RandomForest Model</h2>
+<h3 align="left"> Result of RandomForest Model</h3>
  
-<h3 align="left">Confusion Matrix of RandomForest </h3>
+<h4 align="left">Confusion Matrix of RandomForest </h4>
  
  <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/74568334/129601670-d4d486bc-1404-4b72-bcd3-d0cca1458e5e.png">
@@ -197,21 +197,21 @@ models and select the model with the best score.</p>
 </p> 
  
  
- <h3 align="left">Precision - Recall Curve For RandomForest </h3>
+ <h4 align="left">Precision - Recall Curve For RandomForest </h4>
  
  <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/74568334/129601672-cca1de69-d878-44d4-80ca-add2e092a3d0.png">
   
 </p> 
  
-<h3 align="left"> ROC Curve For RandomForest </h3>
+<h4 align="left"> ROC Curve For RandomForest </h4>
  
 <p align="center">
   <img width="600" src="https://user-images.githubusercontent.com/74568334/129601666-369a1ebe-9ae9-4272-a5f0-6de597a6d817.png">
   
 </p> 
 
-<h3 align="left"> Cost for Prediction with False Negative(FN) and Flase Possitive(FP)</h3>
+<h4 align="left"> Cost for Prediction with False Negative(FN) and Flase Possitive(FP)</h4>
 
 -----------------------------------------
 Model           |  FN | FP   |Total Cost|
@@ -225,9 +225,9 @@ Random Forest   | 23  |  45  |  11,950  |
 
  
 
-<h2 align="left"> Conclusion</h2>
+<h3 align="left"> Conclusion</h3>
 
-<h3 align="left"> Among KNN, SVM  and Random Forest, The Random Forest model provide the least cost for prediction. It means It has a higher F1 score and AUC values. Since the total cost is equal to 500 x FN and 100 x FP, to have a minimal cost it is required to have a lower FN. This can be achieved by having a proper precision-recall tradeoff</h3>
+<h4 align="left"> Among KNN, SVM  and Random Forest, The ***Random Forest model*** provide the least cost for prediction. It means It has a higher F1 score and AUC values. Since the total cost is equal to 500 x FN and 100 x FP, to have a minimal cost it is required to have a lower FN. This can be achieved by having a proper precision-recall tradeoff</h4>
 
 
 
