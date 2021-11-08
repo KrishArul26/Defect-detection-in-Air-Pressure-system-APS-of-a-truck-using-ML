@@ -60,27 +60,17 @@ Total_cost = Cost_1No_Instances + Cost_2No_Instances.
  
  <p style= 'text-align: justify;'> 
   
- 1.	**Data Preprocessing Folder**: This folder only contains preprocessing file which is needed for remove_columns, 
-
-    separate label feature, replace invalid values with Null, finding the null values present in the dataset, 
-
-    encodes all the categorical values in the training set to numeric values, the method finds the missing  
-
-    values, method scales the numerical values, dealing with Dimensanility reduction  techniques using  PCA, 
-
-    the method finds out the columns which have a standard deviation of zero, 
-
-    The methods handle the Imbalance the dependent variables using SMOTE.
+ 1.	**Data Preprocessing Folder**: This folder only contains preprocessing file which is needed for remove_columns, separate label feature, replace invalid values with Null, finding the null values present in the dataset, encodes all the categorical values in the training set to numeric values, the method finds the missing values, method scales the numerical values, dealing with Dimensanility reduction  techniques using  PCA, the method finds out the columns which have a standard deviation of zero, The methods handle the Imbalance the dependent variables using SMOTE.
 
  2.	**EDA**: This folder only contains the Jupyter Notebook and the sample data files. 
 
  3.	**Model_Train Folder**: This folder only contains model_training.py and tuner.py files.
 
-a.	***tuner.py***: This file contains all necessary coding for initializing the SVM, KNN parameters in order to 
+   a.	***tuner.py***: This file contains all necessary coding for initializing the SVM, KNN parameters in order to 
 
-   get the best prediction with good accuracy using GridsearchCV. Finally, It will return the best model. 
+      get the best prediction with good accuracy using GridsearchCV. Finally, It will return the best model. 
 
-b.	***model_training.py***: It has all coding for trained the model and saves the model in the working directory. 
+   b.	***model_training.py***: It has all coding for trained the model and saves the model in the working directory. 
 
  4.	**Models**: Only contain the KNN model which we used to train the model.
 
